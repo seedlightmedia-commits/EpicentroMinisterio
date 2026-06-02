@@ -49,10 +49,14 @@ export function AboutSection() {
                 En qué creemos
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Somos una iglesia de sana doctrina que cree en el Padre, Hijo y Espíritu Santo. 
-                Creemos en los dones del Espíritu Santo y en la manifestación de su poder en la 
-                vida de cada creyente. Nuestra fe está fundamentada en la Palabra de Dios como 
-                autoridad suprema para la vida y la práctica cristiana.
+                Somos un ministerio de sana doctrina que cree en el Padre,
+                el Hijo y el Espíritu Santo. Creemos en el nuevo nacimiento
+                y en los dones del Espíritu Santo como manifestación de su
+                poder en la vida de cada creyente. Creemos en las 5 asignaciones
+                ministeriales instituidas en Efesios 4 para la edificación
+                de los creyentes en nuestro tiempo. 
+                Nuestra fe está fundamentada en la Biblia como palabra de Dios 
+                y como fuente de verdad y de autoridad suprema para la vida cristiana.
               </p>
             </div>
 
