@@ -65,7 +65,7 @@ function RegistrationForm({ eventTitle, onSuccess }: { eventTitle: string; onSuc
     try {
       // REEMPLAZA ESTA URL CON LA NUEVA QUE COPIASTE EN EL PASO 2
       await fetch(
-        "https://script.google.com/macros/s/AKfycbxKcE6KTEg5W3mZeQ4aUQ7xJurrm06axybIb5jHRLEyEB_7GMEZ-KxcQlkOWdW4yoUM/exec",
+        "https://script.google.com/macros/s/AKfycbzx5ZQChvKv8IIbdysn4K01RIMyzOIpYEVoHXnchbMHgMkSz9Wymz-0CO5bclZsjw9_Cw/exec",
         { 
           method: "POST",
           mode: "no-cors",

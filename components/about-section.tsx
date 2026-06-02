@@ -34,7 +34,7 @@ export function AboutSection() {
             Quiénes Somos
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Una comunidad de fe con propósito divino
+            Un ministerio nacido del espíritu. Juan 3:6
           </p>
         </div>
 
@@ -75,7 +75,7 @@ export function AboutSection() {
           {/* Family Grid */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-foreground mb-6 text-center lg:text-left">
-              Pastores Fundadores y Familia
+              Familia Pastoral
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {familyMembers.map((member) => (
