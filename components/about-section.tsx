@@ -34,7 +34,7 @@ export function AboutSection() {
             Quiénes Somos
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Un ministerio nacido del espíritu. Juan 3:6
+            Un ministerio nacido del espíritu. <strong className="text-foreground">Juan 3:6</strong>
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export function AboutSection() {
                 el Hijo y el Espíritu Santo. Creemos en el nuevo nacimiento
                 y en los dones del Espíritu Santo como manifestación de su
                 poder en la vida de cada creyente. Creemos en las 5 asignaciones
-                ministeriales instituidas en Efesios 4 para la edificación
+                ministeriales instituidas en Efesios 5 para la edificación
                 de los creyentes en nuestro tiempo. 
                 Nuestra fe está fundamentada en la Biblia como palabra de Dios 
                 y como fuente de verdad y de autoridad suprema para la vida cristiana.
