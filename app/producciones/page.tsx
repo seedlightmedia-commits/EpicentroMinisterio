@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
-import { Card, CardContent } from "@/components/ui/card"
-import { Play, Music, Video } from "lucide-react"
+import ProduccionesPlayer from "@/components/producciones-player"
+import { Music, Video } from "lucide-react"
 
 export const metadata = {
   title: "Producciones y Prédicas | Epicentro Ministerio",
@@ -12,38 +12,38 @@ const musicVideos = [
   {
     title: "A ti Dios",
     description: "Una adoración que eleva tu espíritu",
-    thumbnail: "https://img.youtube.com/vi/aiGe5rhaps8/maxresdefault.jpg", 
-    url: "https://youtu.be/aiGe5rhaps8?si=1RQvlvWvRrQjpOX4",
+    thumbnail: "https://img.youtube.com/vi/aiGe5rhaps8/maxresdefault.jpg",
+    videoId: "aiGe5rhaps8",
   },
   {
     title: "Espontánea: Habita entre nosotros",
     description: "Un momento de adoración espontánea",
     thumbnail: "https://img.youtube.com/vi/TIv55NKa5Us/maxresdefault.jpg",
-    url: "https://youtu.be/TIv55NKa5Us?si=Gkix9LHxLt9HYS3b",
+    videoId: "TIv55NKa5Us",
   },
   {
     title: "Te necesito",
     description: "Una declaración de dependencia en Dios",
     thumbnail: "https://img.youtube.com/vi/QDLmrz_WI8U/maxresdefault.jpg",
-    url: "https://youtu.be/QDLmrz_WI8U?si=K67Qwzx3NJOSKJs9",
+    videoId: "QDLmrz_WI8U",
   },
   {
     title: "Mamá",
     description: "Un tributo especial",
     thumbnail: "https://img.youtube.com/vi/LqYuW_SB04M/maxresdefault.jpg",
-    url: "https://youtu.be/LqYuW_SB04M?si=eqAg3KJ-0hhhMdxd",
+    videoId: "LqYuW_SB04M",
   },
   {
     title: "Te vi",
     description: "Una canción de testimonio",
     thumbnail: "https://img.youtube.com/vi/jLpuWixhqPA/maxresdefault.jpg",
-    url: "https://youtu.be/jLpuWixhqPA?si=_YrznwDsK6FYPgxg",
+    videoId: "jLpuWixhqPA",
   },
   {
     title: "Santo es mi Dios",
     description: "Adoración que exalta la santidad de Dios",
     thumbnail: "https://img.youtube.com/vi/BhImn52qs_Q/hqdefault.jpg",
-    url: "https://youtu.be/BhImn52qs_Q?si=iLatN00Q9CtHIfiN",
+    videoId: "BhImn52qs_Q",
   },
 ]
 
@@ -90,64 +90,7 @@ export default function ProduccionesPage() {
         </div>
       </section>
 
-      {/* Music Productions */}
-      <section className="py-16 bg-secondary/30">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <a
-              href="https://www.youtube.com/@epicentroministerio/videos?view=0&sort=p&shelf_id=3"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 bg-chart-5/20 rounded-full text-chart-5 font-semibold text-sm mb-4 btn-animate"
-            >
-              <Music className="h-4 w-4" />
-              Producciones Musicales
-            </a>
-            <h2 className="text-3xl md:text-4xl font-black text-foreground mb-4">
-              Nuestra Música
-            </h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Canciones que nacen del corazón para bendecir tu vida
-            </p>
-          </div>
-
-          {/* Music Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {musicVideos.map((video) => (
-              <a
-                key={video.title}
-                href={video.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group"
-              >
-                <Card className="overflow-hidden border-border/50 hover:border-accent/50 transition-all duration-300 hover:shadow-xl bg-card">
-                  <div className="relative aspect-video bg-muted overflow-hidden">
-                    <img 
-                      src={video.thumbnail} 
-                      alt={video.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/60 transition-colors duration-300">
-                      <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg btn-glow">
-                        <Play className="h-8 w-8 text-white ml-1 fill-current" />
-                      </div>
-                    </div>
-                  </div>
-                  <CardContent className="p-4">
-                    <h3 className="text-lg font-bold text-foreground group-hover:text-accent transition-colors">
-                      {video.title}
-                    </h3>
-                    <p className="text-muted-foreground text-sm mt-1">
-                      {video.description}
-                    </p>
-                  </CardContent>
-                </Card>
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ProduccionesPlayer videos={musicVideos} />
 
       {/* Upcoming Releases */}
       <section className="py-20 bg-background">
