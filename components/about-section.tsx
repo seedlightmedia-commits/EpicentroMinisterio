@@ -68,10 +68,8 @@ export function AboutSection() {
                 Nuestra Historia
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Fundada el <strong className="text-foreground">5 de diciembre del 2021</strong> por una palabra 
-                sobre el Espíritu Santo. Cuando los pastores se disponían a viajar a otro país, 
-                Dios habló y les pidió quedarse; así nace <strong className="text-foreground">EPICENTRO MINISTERIO</strong>. 
-                Un lugar donde el poder de Dios se manifiesta y las vidas son transformadas.
+                <strong className="text-foreground">EPICENTRO MINISTERIO</strong> nace de un llamado directo y profundo al corazón de sus pastores Samuel y Natalia durante la pandemia en el año 2020. Se inició con oraciones y encuentros online durante el confinamiento. En el año 2021, el ministerio fue legalmente constituido y fundado con sus primeras reuniones dominicales presenciales. Este es, un nuevo ministerio según 2 Corintios 4 y un ministerio nacido del Espíritu según Juan 3:6. El Espiritu Santo habló a los pastores a través de sueños, visiones y confirmación en palabras proféticas sobre el propósito y el futuro del ministerio. Así como de la localidad donde nos establecimos en la ciudad de Bogotá, Colombia.
+A finales del año 2025 celebramos nuestro quinto aniversario y nuestro propósito es continuar creciendo y estableciéndonos territorial y espiritualmente en la asignación dada por Dios.
               </p>
             </div>
           </div>

@@ -10,7 +10,7 @@ const navLinks = [
   { href: "/", label: "Inicio" },
   { href: "#quienes-somos", label: "Quiénes Somos" },
   { href: "/producciones", label: "Producciones Musicales" },
-  { href: "/epikids", label: "EpiKids" },
+  { href: "/epikids", label: "Ministerios" },
   { href: "/eventos", label: "Próximos Eventos" },
   { href: "/donaciones", label: "Donaciones", highlight: true },
 ]

@@ -11,7 +11,7 @@ const quickLinks = [
   { href: "/", label: "Inicio" },
   { href: "#quienes-somos", label: "Quiénes Somos" },
   { href: "/producciones", label: "Producciones" },
-  { href: "/epikids", label: "EpiKids" },
+  { href: "/epikids", label: "Ministerios" },
   { href: "/eventos", label: "Eventos" },
   { href: "/donaciones", label: "Donaciones" },
 ]
